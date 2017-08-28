@@ -13,10 +13,12 @@ Install CUDA 9.0RC. Download deb(local). from:
 https://developer.nvidia.com/cuda-release-candidate-download
 then:
 
-sudo dpkg -i cuda-repo-ubuntu1704-9-0-local-rc_9.0.103-1_amd64.deb
+
+sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-rc_9.0.103-1_amd64.deb
 sudo apt-key add /var/cuda-repo-9-0-local-rc/7fa2af80.pub
 sudo apt-get update
 sudo apt-get install cuda
+
 
 once gpu+cuda+path were taken care of we can now check the installation is correct by:
 nvidia-smi
