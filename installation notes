@@ -26,7 +26,7 @@ nvidia-smi
 restart your system
 
 download cudd (3 .deb files for installation+dev+samples) - I used version 7.0.1 from:
-https://developer.nvidia.com/cudnn
+https://developer.nvidia.com/cudnn 
 
 sudo dpkg -i libcudnn7_7.0.1.13-1+cuda9.0_amd64.deb
 sudo dpkg -i libcudnn7-dev_7.0.1.13-1+cuda9.0_amd64.deb
